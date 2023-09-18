@@ -29,9 +29,9 @@
             <i class="fa fa-circle"></i>
             <span>商品列表</span>
           </el-menu-item>
-          <el-menu-item index="/dashboard/nature">
+          <el-menu-item index="/dashboard/goods/search">
             <i class="fa fa-circle"></i>
-            <span>商品设置</span>
+            <span>商品搜索</span>
           </el-menu-item>
         </el-submenu>
         <el-menu-item index="/dashboard/shopcart">

@@ -185,6 +185,12 @@ export const constantRoutes = [
         component: () => import("@/components/Goods/GoodsAddPage"),
       },
       {
+        path: "goods/search",
+        name: "goods_search",
+        component: () => import("@/components/Goods/GoodsSearchPage"),
+      },
+       
+      {
         path: "nature",
         name: "nature",
         component: () => import("@/components/Nature/NaturePage"),

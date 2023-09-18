@@ -11,6 +11,8 @@
       </el-breadcrumb>
       <div class="operation-nav">
         <!-- <el-button type="primary" @click="test">测试</el-button> -->
+        <el-button  type="primary" plain @click="onSearchInfo">无商品?检索联盟商品</el-button>
+
         <el-button type="primary" @click="onSubmitInfo">确定保存</el-button>
         <el-button @click="goBackPage" icon="arrow-left">返回列表</el-button>
       </div>
@@ -296,6 +298,14 @@ export default {
           return false;
         }
       });
+      },
+      onSearchInfo()
+      {
+         this.$router.push(
+          {
+            name:'goods_search'
+          }
+         )
       }
           
       
